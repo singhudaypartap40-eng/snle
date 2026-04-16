@@ -1,0 +1,10 @@
+NODES
+DepotA DepotB DepotC WarehouseX ZoneNorth ZoneSouth
+
+EDGES
+DepotA DepotB 4
+DepotA WarehouseX 2
+DepotB ZoneNorth 5
+WarehouseX ZoneSouth 3
+ZoneSouth DepotC 1
+DepotC ZoneNorth 2
